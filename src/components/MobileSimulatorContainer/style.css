@@ -1,0 +1,26 @@
+.mobile {
+  height: 500px;
+  min-width: 300px;
+  background-image: url("/images/mobiles-imulator-container.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mobile-content {
+  position: absolute;
+  left: 40px;
+  top: 55px;
+  font-size: 14px;
+  word-break: break-all;
+  line-height: 1.6;
+  width: 190px;
+  height: 405px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.mobile-content::-webkit-scrollbar {
+  display: none;
+}
